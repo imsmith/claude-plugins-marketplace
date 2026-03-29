@@ -1,0 +1,57 @@
+{
+  "name": "imsmith-marketplace",
+  "owner": {
+    "name": "Ian Smith"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins for BEAM development, infrastructure, document production, and session management",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "beam-style-guard",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imsmith/beam-style-guard.git"
+      },
+      "description": "Enforces BEAM/Elixir style guide principles via automated checks and on-demand audits",
+      "version": "0.1.0"
+    },
+    {
+      "name": "codebase-forensics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imsmith/codebase-forensics.git"
+      },
+      "description": "Forensic codebase analysis for inherited, undocumented, or post-acquisition codebases",
+      "version": "0.1.0"
+    },
+    {
+      "name": "infra-preferences",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imsmith/infra-preferences.git"
+      },
+      "description": "Infrastructure tool preferences and best practices for Podman, CoreDNS, Caddy, wireguard, and eBPF monitoring",
+      "version": "0.1.0"
+    },
+    {
+      "name": "session-wrap",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imsmith/session-wrap.git"
+      },
+      "description": "Session wrap-up: summarize work, update memory, log session, and bookmark for resumption",
+      "version": "0.1.0"
+    },
+    {
+      "name": "tufte-press",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imsmith/tufte-press.git"
+      },
+      "description": "Convert markdown files to Tufte-style PDFs via pandoc + pdflatex",
+      "version": "0.1.0"
+    }
+  ]
+}
